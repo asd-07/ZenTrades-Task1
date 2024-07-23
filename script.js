@@ -1,4 +1,4 @@
-// Fetch the JSON data from the API
+// Fetch the JSON data from the API 
 fetch('https://s3.amazonaws.com/open-to-cors/assignment.json')
 .then(response => {
   if (!response.ok) {
